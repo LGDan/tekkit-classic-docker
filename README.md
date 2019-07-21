@@ -11,10 +11,10 @@ To build the container (if I haven't stuck this on DockerHub):
 To just get it up and running, replace `your_mc_account_name_here` with your Minecraft player name, and run the command:
 ```dockerfile
 docker run -d \
-	-p 25565:25565 \
-	-e SERVER_OP=your_mc_account_name_here \
-	--name=tekkit-server \
-	--restart=unless-stopped \
+    -p 25565:25565 \
+    -e SERVER_OP=your_mc_account_name_here \
+    --name=tekkit-server \
+    --restart=unless-stopped \
     tekkit-classic:latest
 ```
 By default, it does store its data in a volume so it's safe to rebuild the container if you need to, and re-attach the previous volume to `/minecraft`.
