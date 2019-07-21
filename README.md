@@ -1,4 +1,6 @@
 # tekkit-classic-docker
+[![Docker Build](https://img.shields.io/docker/cloud/build/dang1t/tekkit-classic-docker.svg)](https://hub.docker.com/r/dang1t/tekkit-classic-docker)
+
 Tekkit Classic 3.1.2 Docker Container.
 
 To build the container (if I haven't stuck this on DockerHub):
